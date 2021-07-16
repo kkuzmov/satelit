@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LowNav() {
+function BottomNav() {
   return (
     <div>
       <h1>Four parts.</h1>
@@ -8,4 +8,4 @@ function LowNav() {
   )
 }
 
-export default LowNav
+export default BottomNav
