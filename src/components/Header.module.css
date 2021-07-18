@@ -14,3 +14,10 @@
 .figure{
   margin: 0;
 }
+.icon{
+ color: white;
+ font-size: 40px;
+ position: fixed;
+ left: 50px;
+ top: 35px;
+}
