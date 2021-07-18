@@ -1,5 +1,7 @@
 .lowerNavItem{
   border: 1px solid white;
   border-radius: 5px;
-  padding: 40px 100px;
+  background-color: #7de225;
+  padding: 35px 100px;
+  flex-grow: 1;
 }
