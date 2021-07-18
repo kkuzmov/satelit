@@ -6,4 +6,7 @@ body {
     sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg');
+  background-size: cover;
+  height: 100vh;
 }
