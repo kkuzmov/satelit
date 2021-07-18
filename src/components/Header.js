@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './Header.module.css'
+import HeaderStyle from './Header.module.css'
 
 
 function Header() {
   return (
-    <div>
+    <header className={HeaderStyle.header}>
       <h1>Heading towards greatness...</h1>
-    </div>
+    </header>
   )
 }
 
