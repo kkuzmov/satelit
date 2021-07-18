@@ -8,5 +8,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./img/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
 }

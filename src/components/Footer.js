@@ -5,7 +5,7 @@ import FooterStyles from './Footer.module.css'
 function Footer() {
   return (
     <footer className={FooterStyles.footer}>
-      <h1>With love by Krum Kuzmov</h1>
+      <p>With love by Krum Kuzmov</p>
     </footer>
   )
 }
