@@ -15,9 +15,14 @@
   margin: 0;
 }
 .icon{
- color: white;
+ color: #f5f5f5;
  font-size: 40px;
  position: fixed;
  left: 50px;
  top: 35px;
+ transition: all 1s;
+}
+.icon:hover{
+  transform:rotate(90deg);
+  color: red;
 }

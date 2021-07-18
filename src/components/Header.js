@@ -1,12 +1,12 @@
 import React from "react";
 import HeaderStyle from "./Header.module.css";
 import logo from "../logo/Satellite-X-logo-white.png";
-import { FiAlignJustify } from "react-icons/fi";
+import { CgMenuGridO } from "react-icons/cg";
 
 function Header() {
   return (
     <header className={HeaderStyle.header}>
-      <FiAlignJustify className={HeaderStyle.icon}/>
+      <CgMenuGridO className={HeaderStyle.icon}/>
       <figure className={HeaderStyle.figure}>
         <img src={logo} className={HeaderStyle.logo}></img>
       </figure>
