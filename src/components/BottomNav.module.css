@@ -1,0 +1,10 @@
+.bottomNav{
+  position: fixed;
+  background-color: red;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

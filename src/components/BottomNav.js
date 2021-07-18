@@ -1,11 +1,18 @@
 import React from 'react';
-import BottomNav from './BottomNav.module.css'
+import BottomNavStyles from './BottomNav.module.css'
+import LowerNavButton from './LowerNavButton';
+
+
 
 function BottomNav() {
   return (
-    <div>
-      <h1>Four parts.</h1>
-    </div>
+    <section className={BottomNavStyles.bottomNav}>
+      <LowerNavButton name='test one' />
+      <LowerNavButton name='test two' />
+      <LowerNavButton name='test three' />
+      <LowerNavButton name='test four' />
+      <LowerNavButton name='test five' />
+    </section>
   )
 }
 
