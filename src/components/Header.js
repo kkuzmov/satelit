@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderStyle from "./Header.module.css";
-import logo from "../logo/satellite_logo.png";
+import logo from '../logo/Satellite-X-logo-white.png';
 
 function Header() {
   return (
