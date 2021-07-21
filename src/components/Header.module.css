@@ -20,9 +20,9 @@
  position: fixed;
  left: 50px;
  top: 35px;
- transition: all 1s;
+ transition: all 1.5s;
 }
 .icon:hover{
-  transform:rotate(90deg);
-  color: red;
+  transform: rotate(90deg);
+  color: #3f3c7c;
 }
