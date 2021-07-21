@@ -1,12 +1,13 @@
 .navVisible{
-  background-color: red;
+  visibility: visible;
+  background-color: #3f3c7c;
+  border-radius: 5px;
   list-style: none;
-  padding: 10px;
+  padding: 20px;
 }
 .navHidden{
-  background-color: yellow;
+  visibility: hidden;
   list-style: none;
-  padding: 10px;
 }
 .nav{
   display: flex;
