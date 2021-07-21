@@ -14,15 +14,3 @@
 .figure{
   margin: 0;
 }
-.icon{
- color: #f5f5f5;
- font-size: 40px;
- position: fixed;
- left: 50px;
- top: 35px;
- transition: all 1.5s;
-}
-.icon:hover{
-  transform: rotate(90deg);
-  color: #3f3c7c;
-}
