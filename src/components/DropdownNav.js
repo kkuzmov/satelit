@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import DropdownNavStyles from "./DropdownNav.module.css";
 import { CgMenuGridO } from "react-icons/cg";
 
-
 function DropdownNav() {
+  const [navClass, setNavClass] = useState('')
+
+  function toggleNav(){
+    console.log(navClass)
+    navClass == 'navVisible' ? setNavClass('navHidden') : setNavClass('navVisible')
+  }
+  
+
   return (
     <nav className={DropdownNavStyles.nav}>
-      <CgMenuGridO className={DropdownNavStyles.icon} />
-      <ul className={DropdownNavStyles.dropdown}>
+      <CgMenuGridO className={DropdownNavStyles.icon} onClick={toggleNav}/>
+      <ul className={DropdownNavStyles.navClass}>
         <li>Home</li>
         <li>Test</li>
         <li>Staff</li>

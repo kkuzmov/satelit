@@ -1,5 +1,10 @@
-.dropdown{
+.navVisible{
   background-color: red;
+  list-style: none;
+  padding: 10px;
+}
+.navHidden{
+  background-color: yellow;
   list-style: none;
   padding: 10px;
 }
