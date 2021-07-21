@@ -1,0 +1,6 @@
+.dropdown{
+  background-color: red;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
