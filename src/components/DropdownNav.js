@@ -13,7 +13,7 @@ function DropdownNav() {
   return (
     <nav className={DropdownNavStyles.nav}>
       <CgMenuGridO className={DropdownNavStyles.icon} onClick={toggleNav}/>
-      <ul className={DropdownNavStyles[navClass]}>
+      <ul className={DropdownNavStyles[navClass]} id={DropdownNavStyles.navUl}>
         <li>Home</li>
         <li>Test</li>
         <li>Staff</li>
