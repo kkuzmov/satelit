@@ -6,7 +6,6 @@ function DropdownNav() {
   const [navClass, setNavClass] = useState('navHidden')
 
   function toggleNav(){
-    console.log(navClass)
     navClass == 'navVisible' ? setNavClass('navHidden') : setNavClass('navVisible')
   }
   
