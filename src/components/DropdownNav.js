@@ -15,7 +15,7 @@ function DropdownNav() {
       <CgMenuGridO className={DropdownNavStyles.icon} onClick={toggleNav}/>
       <ul className={DropdownNavStyles[navClass]} id={DropdownNavStyles.navUl}>
         <li>Home</li>
-        <li>Test</li>
+        <li>Story</li>
         <li>Staff</li>
         <li>About</li>
       </ul>
