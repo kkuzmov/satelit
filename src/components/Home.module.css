@@ -1,11 +1,12 @@
 .secondaryHeading{
   font-size: 40px;
-  color: #16425B;
+  color: #3f3c7c;
   text-shadow: 2px 2px 5px #eee, 5px 5px 0px #707070;
+  margin: 20px 0px;
 }
 .mainHeading{
   font-size: 60px;
-  color: #16425B;
+  color: #3f3c7c;
   text-shadow: 2px 2px 5px #eee, 5px 5px 0px #707070;
   margin: 0;
 }
@@ -13,7 +14,7 @@
   text-shadow: 0px 20px 0px #eee, 0px 45px 0px #eee;
 }
 .homepageHeadings{
-  position: relative;
+  position: absolute;
   background-color: #d9dcd656;
   border-radius: 10px;
   padding: 0px 20px;
