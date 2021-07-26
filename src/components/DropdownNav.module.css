@@ -23,16 +23,16 @@
 }
 .iconDefault{
   color: #f5f5f5;
-  font-size: 40px;
+  font-size: 35px;
   transition: all 1.2s;
-
+  cursor: pointer;
  }
  .iconRotated{
-   transform: rotate(90deg);
-  transition: all 1.2s;
-
-   font-size: 40px;
+   transform: rotate(450deg);
+   transition: all 1.2s;
+   font-size: 45px;
    color: #3f3c7c;
+   cursor: pointer;
  }
  #navUl{
   background-color: #3f3c7c;

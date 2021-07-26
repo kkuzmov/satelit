@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import DropdownNavStyles from "./DropdownNav.module.css";
-import { CgMenuGridO } from "react-icons/cg";
+import { MdViewWeek } from "react-icons/md";
 
 function DropdownNav() {
   const [navClass, setNavClass] = useState('navHidden');
@@ -13,7 +13,7 @@ function DropdownNav() {
 
   return (
     <nav className={DropdownNavStyles.nav}>
-      <CgMenuGridO className={DropdownNavStyles[iconClass]} onClick={toggleNav}/>
+      <MdViewWeek className={DropdownNavStyles[iconClass]} onClick={toggleNav}/>
       <ul className={DropdownNavStyles[navClass]} id={DropdownNavStyles.navUl}>
         <li>Home</li>
         <li>Story</li>
