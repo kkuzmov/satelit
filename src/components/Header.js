@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderStyle from "./Header.module.css";
+import { Link } from "react-router-dom";
 import logo from "../logo/Satellite-X-logo-white.png";
 import DropdownNav from "./DropdownNav";
 
@@ -9,9 +10,11 @@ function Header() {
     <>
     <DropdownNav />
     <header className={HeaderStyle.header}>
+      <Link to='/'>
       <figure className={HeaderStyle.figure}>
         <img src={logo} className={HeaderStyle.logo}></img>
       </figure>
+      </Link>
     </header>
     </>
   );
