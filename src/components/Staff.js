@@ -1,11 +1,10 @@
 import React from 'react'
-import Staff from './Staff.module.css'
 
 
 function Staff() {
   return (
     <div>
-      
+      <h1>This is staff...</h1>
     </div>
   )
 }

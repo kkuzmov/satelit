@@ -17,9 +17,9 @@ function DropdownNav() {
       <MdViewWeek className={DropdownNavStyles[iconClass]} onClick={toggleNav}/>
       <ul className={DropdownNavStyles[navClass]} id={DropdownNavStyles.navUl}>
         <Link to='/'><li>Home</li></Link>
-        <li>Story</li>
-        <li>Staff</li>
-        <li>About</li>
+        <Link to='/story'><li>Story</li></Link>
+        <Link to='/staff'><li>Staff</li></Link>
+        <Link to='/about'><li>About</li></Link>
       </ul>
     </nav>
   );
