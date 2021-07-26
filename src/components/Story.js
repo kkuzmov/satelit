@@ -1,10 +1,14 @@
 import React from 'react'
+import Header from './Header'
+import BottomNav from './BottomNav'
 
 function Story() {
   return (
-    <div>
+    <>
+    <Header />
       <h1>This is story...</h1>
-    </div>
+    <BottomNav />
+    </>
   )
 }
 

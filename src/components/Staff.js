@@ -1,11 +1,14 @@
 import React from 'react'
-
+import Header from './Header';
+import BottomNav from './BottomNav';
 
 function Staff() {
   return (
-    <div>
+    <>
+    <Header />
       <h1>This is staff...</h1>
-    </div>
+    <BottomNav />
+    </>
   )
 }
 

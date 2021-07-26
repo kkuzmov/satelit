@@ -16,7 +16,7 @@ body {
 #root::after{
   content: "";
   background-image: url('./img/christina-wocintechchat-com-c5pRBXFhJgo-unsplash.jpg');
-  opacity: 0.7;
+  opacity: 0.5;
   background-size: cover;
   min-height: 130vh;
   max-height: 130vh;
