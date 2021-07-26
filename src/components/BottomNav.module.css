@@ -1,6 +1,6 @@
 .bottomNav{
   position: fixed;
-  background-color: #D9DCD6;
+  background-color: #3f3c7c;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -8,44 +8,68 @@
   flex-wrap: wrap;
   justify-content: center;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31);
-
 }
 .link{
   text-decoration: none;
-  color: #3f3c7c;
+  color: #e6ebe1;
+  text-shadow: 2px 2px 5px #3f3c7c, 4px 4px 5px #707070;
+  font-size: 40px;
+  transition: color 0.5s;
+  padding: -20px;
 }
-.link:visited{
+.link:hover{
   color: #3f3c7c;
+  text-shadow: 2px 2px 5px #e6ebe1, 4px 4px 5px #3f3c7c;
 }
 .homeBottomNav{
-  border: 1px solid white;
+  border: 1px solid #7de225;
+  background: url('../img/home-4.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 20px 100px;
   border-radius: 5px;
-  background-color: #7de225;
-  text-align: center;
-  padding: 35px 100px;
-  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  flex-grow: 2;
 }
 .storyBottomNav{
-  border: 1px solid white;
+  border: 1px solid #7de225;
   border-radius: 5px;
-  background-color: #7de225;
-  text-align: center;
-  padding: 35px 100px;
-  flex-grow: 1;
+  background: url('../img/story-3.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  flex-grow: 2;
 }
 .staffBottomNav{
-  border: 1px solid white;
+  border: 1px solid #7de225;
   border-radius: 5px;
-  background-color: #7de225;
-  text-align: center;
-  padding: 35px 100px;
-  flex-grow: 1;
+  background: url('../img/staff-2.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  flex-grow: 2;
 }
 .aboutBottomNav{
-  border: 1px solid white;
+  border: 1px solid #7de225;
   border-radius: 5px;
-  background-color: #7de225;
-  text-align: center;
-  padding: 35px 100px;
-  flex-grow: 1;
+  background: url('../img/about-3.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  flex-grow: 2;
 }
