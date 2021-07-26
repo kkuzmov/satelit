@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import DropdownNavStyles from "./DropdownNav.module.css";
 import { MdViewWeek } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function DropdownNav() {
   const [navClass, setNavClass] = useState('navHidden');
@@ -15,7 +16,7 @@ function DropdownNav() {
     <nav className={DropdownNavStyles.nav}>
       <MdViewWeek className={DropdownNavStyles[iconClass]} onClick={toggleNav}/>
       <ul className={DropdownNavStyles[navClass]} id={DropdownNavStyles.navUl}>
-        <li>Home</li>
+        <Link to='/'><li>Home</li></Link>
         <li>Story</li>
         <li>Staff</li>
         <li>About</li>
