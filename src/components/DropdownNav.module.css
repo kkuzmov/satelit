@@ -21,13 +21,13 @@
   top: 40px;
   left: 140px;
 }
-.icon{
+.iconDefault{
   color: #f5f5f5;
   font-size: 40px;
   transition: all 1.2s;
 
  }
- .iconOnClick{
+ .iconRotated{
    transform: rotate(90deg);
   transition: all 1.2s;
 

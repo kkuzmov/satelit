@@ -4,11 +4,11 @@ import { CgMenuGridO } from "react-icons/cg";
 
 function DropdownNav() {
   const [navClass, setNavClass] = useState('navHidden');
-  const [iconClass, setIconClass] = useState('icon');
+  const [iconClass, setIconClass] = useState('iconDefault');
 
   function toggleNav(){
     navClass == 'navVisible' ? setNavClass('navHidden') : setNavClass('navVisible')
-    iconClass == 'icon' ? setIconClass('iconOnClick') : setIconClass('icon')
+    iconClass == 'iconDefault' ? setIconClass('iconRotated') : setIconClass('iconDefault')
   }
 
   return (
