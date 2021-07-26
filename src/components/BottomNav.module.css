@@ -1,6 +1,6 @@
 .bottomNav{
   position: fixed;
-  background-color: #3f3c7c;
+  background-color: transparent;
   bottom: 0;
   width: 100%;
   display: flex;
@@ -22,7 +22,7 @@
   text-shadow: 2px 2px 5px #e6ebe1, 4px 4px 5px #3f3c7c;
 }
 .homeBottomNav{
-  border: 1px solid #7de225;
+  border: 3px solid #81C3D7;
   background: url('../img/home-4.jpg');
   background-size:cover;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
   flex-grow: 2;
 }
 .storyBottomNav{
-  border: 1px solid #7de225;
+  border: 3px solid #81C3D7;
   border-radius: 5px;
   background: url('../img/story-3.jpg');
   background-size:cover;
@@ -48,7 +48,7 @@
   flex-grow: 2;
 }
 .staffBottomNav{
-  border: 1px solid #7de225;
+  border: 3px solid #81C3D7;
   border-radius: 5px;
   background: url('../img/staff-2.jpg');
   background-size:cover;
@@ -61,7 +61,7 @@
   flex-grow: 2;
 }
 .aboutBottomNav{
-  border: 1px solid #7de225;
+  border: 3px solid #81C3D7;
   border-radius: 5px;
   background: url('../img/about-3.jpg');
   background-size:cover;
