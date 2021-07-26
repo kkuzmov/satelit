@@ -49,7 +49,14 @@
   font-size: 28px;
   line-height: 2.5;
  }
- #navUl li:hover{
-    cursor: pointer;
-    color: #7de225;
- }
+ .link{
+  text-decoration: none;
+  color: #D9DCD6;
+}
+.link:visited{
+  color: #D9DCD6;
+}
+.link:hover{
+  cursor: pointer;
+  color: #7de225;
+}

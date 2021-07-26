@@ -10,3 +10,42 @@
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31);
 
 }
+.link{
+  text-decoration: none;
+  color: #3f3c7c;
+}
+.link:visited{
+  color: #3f3c7c;
+}
+.homeBottomNav{
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #7de225;
+  text-align: center;
+  padding: 35px 100px;
+  flex-grow: 1;
+}
+.storyBottomNav{
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #7de225;
+  text-align: center;
+  padding: 35px 100px;
+  flex-grow: 1;
+}
+.staffBottomNav{
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #7de225;
+  text-align: center;
+  padding: 35px 100px;
+  flex-grow: 1;
+}
+.aboutBottomNav{
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #7de225;
+  text-align: center;
+  padding: 35px 100px;
+  flex-grow: 1;
+}

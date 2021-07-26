@@ -16,10 +16,10 @@ function DropdownNav() {
     <nav className={DropdownNavStyles.nav}>
       <MdViewWeek className={DropdownNavStyles[iconClass]} onClick={toggleNav}/>
       <ul className={DropdownNavStyles[navClass]} id={DropdownNavStyles.navUl}>
-        <Link to='/'><li>Home</li></Link>
-        <Link to='/story'><li>Story</li></Link>
-        <Link to='/staff'><li>Staff</li></Link>
-        <Link to='/about'><li>About</li></Link>
+        <Link to='/' className={DropdownNavStyles.link}><li>Home</li></Link>
+        <Link to='/story' className={DropdownNavStyles.link}><li>Story</li></Link>
+        <Link to='/staff' className={DropdownNavStyles.link}><li>Staff</li></Link>
+        <Link to='/about' className={DropdownNavStyles.link}><li>About</li></Link>
       </ul>
     </nav>
   );
