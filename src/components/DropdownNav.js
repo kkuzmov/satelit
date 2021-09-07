@@ -10,7 +10,8 @@ function DropdownNav() {
 
   return (
     <nav className={DropdownNavStyles.nav}>
-      <MdViewWeek className={DropdownNavStyles[iconClass]} onClick={()=>{toggleNav(navClass, iconClass, setNavClass, setIconClass)}}/>
+      {/* dropdown does not work for whatever reason */}
+      {/* <MdViewWeek className={DropdownNavStyles[iconClass]} onClick={()=>{toggleNav(navClass, iconClass, setNavClass, setIconClass)}}/> */}
       <ul className={DropdownNavStyles[navClass]} id={DropdownNavStyles.navUl}>
         <Link to='/' className={DropdownNavStyles.link}><li>Home</li></Link>
         <Link to='/story' className={DropdownNavStyles.link}><li>Story</li></Link>
