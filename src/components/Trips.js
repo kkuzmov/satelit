@@ -11,9 +11,10 @@ function Trip(props){
   return(
     <>
     <article className={TripsStyles.tripArticle}>
-      <h3>{props.name}</h3>
-      <img src={props.image} width='200px'></img>
-      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+      <div className={TripsStyles.imageContainer}>
+      <img src={props.image} width='300px'></img>
+      </div>
+      <h2>{props.name}</h2>
     </article>
     </>
   )
@@ -24,9 +25,9 @@ function Trips() {
     <>
     <Header />
       <section className={TripsStyles.allTrips}>
-      <Trip name='Greece' image={image}/>
-      <Trip name='Japan' image={image2}/>
-      <Trip name='Spain' image={image3}/>
+      <Trip name='Greece, 2012' image={image}/>
+      <Trip name='Japan, 2015' image={image2}/>
+      <Trip name='Spain, 2017' image={image3}/>
       </section>
     <BottomNav/>
     </>
