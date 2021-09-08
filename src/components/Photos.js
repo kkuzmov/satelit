@@ -14,10 +14,10 @@ function Photos() {
       <Header />
       <section className={PhotosStyles.allTrips}>
         <Link to="/albums">
-          <Album name="Trips" image={trip} />
+          <Album name="Trips" image={trip} className={PhotosStyles.tripArticle}/>
         </Link>
-        <Album name="Weddings" image={wedding} />
-        <Album name="The Best" image={best} />
+        <Album name="Weddings" image={wedding} className={PhotosStyles.tripArticle}/>
+        <Album name="The Best" image={best} className={PhotosStyles.tripArticle}/>
       </section>
       <BottomNav />
     </div>

@@ -1,17 +1,22 @@
 .header{
   background-color: #81C3D7;
+  background: rgb(57,98,111);
+  background: linear-gradient(312deg, rgba(57,98,111,1) 0%, rgba(129,195,215,1) 41%, rgba(39,137,167,1) 100%);
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31);
-
+  z-index: 0;
 }
 .header h1{
   margin: 0;
 }
 .logo{
-  width: 350px;
+  width: 300px;
+  margin-bottom: -20px;
+  margin-top: -10px;
+  padding-bottom: 0px;
 }
 .figure{
   margin: 0;

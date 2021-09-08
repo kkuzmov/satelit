@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderStyle from "./Header.module.css";
 import { Link } from "react-router-dom";
-import logo from "../logo/Satellite-X-logo-white.png";
+import logo from "../logo/Satelit-X-logo.png";
 import DropdownNav from "./DropdownNav";
 
 
