@@ -48,6 +48,7 @@
   justify-content: space-evenly;
   max-width: 80%;
   margin: 80px auto ;
-
-
+}
+a, a:visited{
+  text-decoration: none;
 }

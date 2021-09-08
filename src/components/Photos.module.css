@@ -1,4 +1,4 @@
-/* .tripArticle{
+.tripArticle{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -11,7 +11,7 @@
 .tripArticle:hover{
   transform: scale(1.08);
   cursor: pointer;
-} */
+}
 
 .imageContainer{
   width: 80%;
@@ -39,8 +39,7 @@
   margin: 60px auto ;
   border-radius: 7px;
 }
-.allTrips a, .allTrips a:visited{
+.link{
   color: #7a76bb;
-  /* font-kerning: auto; */
   text-decoration: none;
 }

@@ -1,0 +1,11 @@
+.imageContainer{
+  padding: 5px auto 15px auto;
+  background-color: #fff;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.imageContainer img{
+  padding: 5px 5px 20px 5px;
+}

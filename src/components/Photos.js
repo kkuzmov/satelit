@@ -13,7 +13,7 @@ function Photos() {
     <div>
       <Header />
       <section className={PhotosStyles.allTrips}>
-        <Link to="/albums">
+        <Link to="/albums" className={PhotosStyles.link}>
           <Album name="Trips" image={trip} className={PhotosStyles.tripArticle}/>
         </Link>
         <Album name="Weddings" image={wedding} className={PhotosStyles.tripArticle}/>

@@ -7,6 +7,7 @@ import Story from "./components/Story";
 import {Albums} from "./components/Albums";
 import Photos from "./components/Photos";
 import { Route, Switch } from "react-router-dom";
+import GreeceEXPERIMENTAL from "./components/GreeceEXPERIMENTAL";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' component={About} />
         <Route path='/albums' component={Albums} />
         <Route path='/photos' component={Photos} />
+        <Route path='/greece' component={GreeceEXPERIMENTAL} />
       </Switch>
     </div>
   );

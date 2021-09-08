@@ -1,13 +1,13 @@
 .navVisible{
   opacity: 1;
   position:absolute;
-  top: 66px;
+  top: 67px;
   transition: opacity 300ms;
 }
 .navHidden{
   list-style: none;
   position:absolute;
-  top: 66px;
+  top: 67px;
   opacity: 0;
   transition: opacity 300ms;
 
